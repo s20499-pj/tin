@@ -1,0 +1,48 @@
+body {
+    background-image: url("icon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    width: 90%;
+    margin: auto;
+}
+main {
+    display: block;
+    height: 80%;
+    overflow-y: scroll;
+    background-color: #3597d2;
+}
+img {
+    max-width: 20%;
+    height: auto;
+}
+nav {
+    height: 80%;
+    background-color: rgba(173,216,230,0.5);
+    display: block;
+    float: left;
+    width:20%;
+}
+ul {
+    list-style-type: none;
+    display: block;
+    text-decoration: none;
+    margin: 0;
+}
+#upper_ul {
+    background-color: blue;
+    padding: 0;
+}
+#under_ul {
+    background-color: lightblue;
+}
+footer {
+    color: white;
+    background-color: blue;
+    text-align: center;
+}
+a {
+    color: white;
+}
