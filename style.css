@@ -18,16 +18,29 @@ img {
     max-width: 20%;
     height: auto;
 }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 nav {
     height: 80%;
     background-color: rgba(173,216,230,0.5);
-    display: block;
     float: left;
     width:20%;
 }
 ul {
     list-style-type: none;
-    display: block;
     text-decoration: none;
     margin: 0;
 }
@@ -37,6 +50,7 @@ ul {
 }
 #under_ul {
     background-color: lightblue;
+    padding 20px
 }
 footer {
     color: white;
@@ -45,4 +59,8 @@ footer {
 }
 a {
     color: white;
+}
+
+li:hover {
+    background-color: rgba(100,100,255,0.9);
 }
