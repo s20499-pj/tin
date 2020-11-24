@@ -24,15 +24,15 @@ img {
 }
 
 table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
 }
 
 td, th {
-  border: 1px solid lightskyblue;
-  text-align: left;
-  padding: 8px;
+    border: 1px solid lightskyblue;
+    text-align: left;
+    padding: 8px;
 }
 
 th {
@@ -44,7 +44,7 @@ tr {
 }
 
 tr:nth-child(2n) {
-  background-color: lightskyblue;
+    background-color: lightskyblue;
 }
 nav {
     height: 80%;
@@ -77,4 +77,9 @@ a {
 
 li:hover {
     background-color: rgba(100,100,255,0.9);
+}
+
+p{
+    margin: 0px;
+    padding: 0.5em;
 }
