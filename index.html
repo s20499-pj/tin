@@ -9,10 +9,10 @@
     <nav>
       <ul id="upper_ul">
 	<li><a href="index.html">link</a></li>
-	  <ul id="under_ul">
- 	    <li><a href="index.html">link2</a></li>
-   	    <li><a href="index.html">link2</a></li>
-	    <li><a href="index.html">link2</a></li>
+	<ul id="under_ul">
+ 	  <li><a href="index.html">link2</a></li>
+   	  <li><a href="index.html">link2</a></li>
+	  <li><a href="index.html">link2</a></li>
 	</ul>
 	<li><a href="index.html">link2</a></li>
 	<li><a href="index.html">link2</a></li>
@@ -40,23 +40,25 @@
       <br>
       <br>
       <form>
-	<label for="name">Imię i nazwisko:</label><br>
-	<input type="text" id="name" name="name"><br>
-	<label>Opis</label><br>
-	<textarea name="message" rows="10" cols="30">Wpisz coś o sobie</textarea><br>
-	<p>Wiek</p>
-	<select name="wiek">
-	  <option><18</option>
-		    <option>>18</option>
-	</select><br>
-	<label>Płeć</label><br>
-	<input type="radio" id="male" name="gender" value="male">
-	<label for="male">Male</label><br>
-	<input type="radio" id="female" name="gender" value="female">
-	<label for="female">Female</label><br>
-	<input type="radio" id="other" name="gender" value="other">
-	<label for="other">Other</label><br>
-	<input type="submit" value="Submit">	  
+	<div class="form">
+	  <label for="name">Imię i nazwisko:</label><br>
+	  <input type="text" id="name" name="name"><br>
+	  <label>Opis</label><br>
+	  <textarea rows="10" cols="30" placeholder="Wpisz coś o sobie"></textarea>
+	  <p>Wiek</p>
+	  <select name="wiek">
+	    <option><18</option>
+		      <option>>18</option>
+	  </select><br>
+	  <label>Płeć</label><br>
+	  <input type="radio" id="male" name="gender" value="male">
+	  <label for="male">Male</label><br>
+	  <input type="radio" id="female" name="gender" value="female">
+	  <label for="female">Female</label><br>
+	  <input type="radio" id="other" name="gender" value="other">
+	  <label for="other">Other</label><br>
+	  <input type="submit" value="Submit">
+	</div>
       </form>
       <table>
 	<tr>
