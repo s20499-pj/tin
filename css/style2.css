@@ -85,8 +85,10 @@ footer{
     background: white;
     text-align: center;
 }
-footer p{
+footer div{
     width: 30%;
     text-align: center;
     display: inline-block;
+    border-style: solid;
+    margin: 1px;
 }

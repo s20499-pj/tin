@@ -132,7 +132,7 @@ class Auto {
         this.cena_koncowa = cena;
     }
 
-    get a(){ //a
+    a(){ //a
 	this.cena_wyjsciowa +=1000;
 	return this.cena_wyjsciowa;
     }
