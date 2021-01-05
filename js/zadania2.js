@@ -44,3 +44,39 @@ $(function(){
 		"</td></tr>");
     }
 })
+
+
+//3zad
+function myHamburger() {
+    var x = document.getElementsByTagName("NAV")[0];
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+console.log("do zadania 4 działa");
+//4zad
+$(function(){
+    var acc = document.getElementsByClassName("accordion");
+    console.log(acc);
+    for (var i = 0; i < acc.length; i++) {
+	acc[i].addEventListener("click", function() {
+	    console.log("Lisnery zaladowane");
+	    for (let j of acc){
+		j.classList.remove("active");
+		console.log("active usuwane");
+		j.nextElementSibling.style.maxHeight = null;
+	    };
+	    this.classList.toggle("active");
+	    console.log("active dodany");
+	    var panel = this.nextElementSibling;
+	    if (panel.style.maxHeight) {
+		panel.style.maxHeight = null;
+	    } else {
+		panel.style.maxHeight = panel.scrollHeight + "px";
+		console.log("wys zwiększona");
+	    }
+	});
+    }
+})
