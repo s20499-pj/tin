@@ -1,0 +1,62 @@
+body {
+    background: white;
+    width: 90%;
+    margin: auto;
+}
+
+main {
+    display: block;
+    background-color: lightgrey;
+    column-count: 2;
+    column-width: 500px;
+    padding: 10px;
+}
+
+.accordion {
+    background-color: lightgrey;
+    padding: 18px;
+    width: 100%;
+    border: none;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+flowerpots{
+    clear: both;
+    height: 10%;
+    width: 100%;
+    background: white;
+    text-align: center;
+}
+
+div .flowerpot {
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    border-style: solid;
+    margin: 1px;
+}
+
+flowerpots .selected {
+    border-style: solid;
+    border-color:green;
+}
+
+nav, .farmland {
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: calc(100% - 40px);
+}
+
+
